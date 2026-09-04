@@ -5,6 +5,8 @@
   "scripts": {
     "extract:ja": "node translation-scripts/extract-content.js index.html ja",
     "replace:ja": "node translation-scripts/replace-content.js ja",
+    "extract:zh": "node translation-scripts/extract-content.js index.html zh",
+    "replace:zh": "node translation-scripts/replace-content.js zh",
     "serve": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000"
   },
   "dependencies": {
